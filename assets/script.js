@@ -5,9 +5,9 @@ function toggleMode() {
 
   const img = document.querySelector("#profile--logo");
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "/assets/logo-color.svg");
+    img.setAttribute("src", "../assets/images/logo-color.svg");
   } else {
-    img.setAttribute("src", "/assets/logo-white.svg");
+    img.setAttribute("src", "../assets/images/logo-white.svg");
   }
 }
 

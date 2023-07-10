@@ -20,7 +20,7 @@
   --highlight-color-hover: rgba(255, 255, 255, 0.4);
   --surface-social-link-color: rgba(254, 114, 149, 0.9);
   --surface-social-link-color-hover: rgba(254, 114, 149, 1);
-  --switch-bg-url: url(./assets/moon-starts.svg);
+  --switch-bg-url: url(./images/moon-starts.svg);
   --scrollbar-bg: #666666;
   --scrollbar-surface: #cccccc;
 }
@@ -41,7 +41,7 @@
   --highlight-color-hover: rgba(255, 255, 255, 0.4);
   --surface-social-link-color: rgba(255, 255, 255, 0.8);
   --surface-social-link-color-hover: rgba(255, 255, 255, 1);
-  --switch-bg-url: url(./assets/sun.svg);
+  --switch-bg-url: url(./images/sun.svg);
   --scrollbar-bg: #cccccc;
   --scrollbar-surface: #666666;
 }
@@ -108,7 +108,7 @@ body {
   position: absolute;
   width: 64px;
   top: 30px;
-  right: 0;
+  right: 24px;
 }
 #switch button {
   width: 32px;
@@ -220,7 +220,7 @@ ul li a:hover {
   color: var(--text-color);
   gap: 5px;
   cursor: pointer;
-  font-weight: 300;
+  font-weight: 200;
 }
 #extra-links span svg{
   fill: var(--text-color);
@@ -232,7 +232,7 @@ ul li a:hover {
   padding: 7px;
   background: var(--bg-color);
   color: white;
-  font-weight: 300;
+  font-weight: 200;
   text-decoration: none;
   border-radius: 50px;
   transition: background 0.2s;
