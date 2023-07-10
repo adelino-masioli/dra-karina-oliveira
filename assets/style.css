@@ -90,8 +90,9 @@ body {
 }
 #profile--logo {
   margin: auto;
-  margin-top: -210px;
+  margin-top: -110px;
   display: block;
+  max-width: 90%;
 }
 #profile h1 {
   font-weight: 500;
