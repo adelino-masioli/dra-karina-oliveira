@@ -80,6 +80,9 @@ body {
 #profile {
   text-align: center;
   padding: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 #profile--photo {
   width: 100%;
